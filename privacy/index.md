@@ -45,6 +45,8 @@ Shik 的「截屏记账」只接收快捷指令本次传入的一张受支持图
 
 **StoreKit。** Apple 通过 App Store 和 StoreKit 处理商品查询、付款、订阅续费和恢复购买。Shik 从 StoreKit 读取商品标识和展示价格，以及判断权益所需的交易标识、签名验证结果、订阅状态、有效期、退款或撤销信息，在设备上验证和更新 PRO 权益。Shik 不接收完整支付卡资料或 Apple 账户密码，也不会把本地账本交给 Apple 作购买验证。Apple 对其处理的账户、支付和交易资料适用自身政策。 [Apple 隐私政策](https://www.apple.com/cn/legal/privacy/)
 
+**PRO 活动配置。** Shik 通过 HTTPS 从 GitHub Pages 读取公开的活动时间和优惠配置。请求不包含 Apple 账号、设备标识、购买交易、活动资格结果或账本数据。GitHub Pages 为安全目的记录并保存请求 IP 地址，由 GitHub 按其隐私政策处理。Shik 不将该请求用于广告、分析或跟踪。 [GitHub 隐私政策](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+
 **文件、照片、快捷指令及分享。** 你控制所选文件和照片、快捷指令传入的内容、分享目的地及分享对象。系统文件提供商、照片或快捷指令服务、设备备份、系统剪贴板和接收文件的其他应用可依设备设置及自身规则处理数据。你可在系统中管理相应权限和服务设置，也可在 Shik 中取消选择或保存。本政策的本地处理说明适用于 Shik 对上述数据的处理。
 
 ## 四、意见反馈及邮件处理
